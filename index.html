@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZaceYt Official Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9cddc83d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+<div class="nav-logo">
+    <a href="#"><img src="logo.png"></a>
+</div>
+<div class="nav-links" id="nav-links">
+    <i class="fa fa-close" onclick="closemenu()"></i>
+    <ul>
+        <a href="index.html"><li>HOME</li></a>
+    <a href="about.html"><li>ABOUT</li></a>
+        <a href="videos.html"><li>VIDEOS</li></a>
+        <a href="updates.html"><li>UPDATES</li></a>
+        <a href="Socials.html"><li>SOCIALS</li></a>
+    </ul>
+    
+</div>
+<i class="fa fa-bars" onclick="showmenu()"></i>
+        </div>
+<div class="banner-title">
+    <h1>Welcome To <span>Zace's</span> Website! <br> <span>Subscribe</span> For More Content.</h1>
+    <a href="https://www.youtube.com/channel/UCzgwUG_Ye-sJBpChKVJsdAQ"><button type="button" class="btn">SUBSCRIBE</button></a>
+</div>
+<div class="Image-Zace">
+    <img src="Zace face.png">
+</div>
+<div class="vertical-bar">
+    <div class="search-icon">
+        
+        <a href="Socials.html"><i class="fa fa-share-square-o"></i></a>
+        <a href="videos.html"><i class="fa fa-th-list"></i></a>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.youtube.com/channel/UCzgwUG_Ye-sJBpChKVJsdAQ"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.instagram.com/zaceyt7/"><i class="fa fa-instagram"></i></a>
+        <a href="https://discord.gg/Q8xrtNNtRH"><i class="fab fa-discord"></i></a>
+        <a href="https://twitter.com/ZaceYt7"><i class="fa fa-twitter"></i></a>
+      </div>
+</div>
+</div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links")
+        function showmenu(){
+
+            show.style.right = "0";
+
+        }
+        function closemenu(){
+
+show.style.right = "-200px";
+
+}
+    </script>
+</body>
+</html>
